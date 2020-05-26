@@ -1,6 +1,6 @@
 # Angel Perez's personal page
 
-This is the source code of my personal page, which is found [here](https://aitbw.github.io/).
+This is the source code of my personal page, which is found [here](https://aitbw.codes/).
 
 This blog was built over the [beautiful-jekyll](https://github.com/daattali/beautiful-jekyll) theme
 by [Dean Attali](https://github.com/daattali), therefore, most of the code found on this repository
