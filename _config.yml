@@ -1,7 +1,7 @@
 url: "http://aitbw.github.io"
 baseurl: ""
 title: "Angel Perez"
-description: "Information Engineer, Backend Developer & Polyglot"
+description: "Information/Software Engineer & Polyglot"
 
 navbar-links:
   Posts: "posts"
@@ -25,7 +25,7 @@ share-links-active:
   vk: false
 
 date_format: "%B %-d, %Y"
-timezone: "America/Caracas"
+timezone: "America/Bogota"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
