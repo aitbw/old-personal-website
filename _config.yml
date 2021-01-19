@@ -1,137 +1,30 @@
-# --- Basic options --- #
-
-# url is the full website URL
-# baseurl is the website's URL without the hostname
-
-# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
 url: "http://aitbw.github.io"
 baseurl: ""
-
-# Of course don't forget to change the username and projectname to YOUR username and project
-
-# Name of website
 title: "Angel Perez"
-
-# Short description of your site
 description: "Information Engineer, Backend Developer & Polyglot"
 
 navbar-links:
   Posts: "posts"
 
-# Image to show in the navigation bar - works best with a square image
-# Remove this parameter if you don't want an image in the navbar
 avatar: "/img/avatar-icon.jpg"
-
-# If you want to have an image logo in the top-left corner instead of the title text,
-# then specify the following parameter
-#title-img: /path/to/image
-
-
-# --- Footer options --- #
-
-# Change all these values or delete the ones you don't want.
-# Important: you must keep the "name" parameter, everything else you can remove
+round-avatar: true
 author: Angel Perez
 
-# Select your active Social Network Links.
-# Uncomment the links you want to show in the footer and add your information to each link.
-# You can reorder the items to define the link order.
-# If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  # rss: false
   email: "aitbw@icloud.com"
   github: aitbw
   linkedin: angelperez93
   stackoverflow: "4844313/angel-perez"
-#  reddit: yourname
-#  google-plus: +DeanAttali
-#  xing: yourname
-#  snapchat: deanat78
-#  instagram: deanat78
-#  youtube: user/deanat78
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
-#  telegram: yourname
-#  calendly: yourname
 
-# --- General options --- #
+rss-description: This website is a virtual proof that I'm awesome
 
-# Select which social network share links to show in posts
 share-links-active:
   twitter: true
   facebook: true
   linkedin: true
+  vk: false
 
-# --- Web Statistics Section --- #
-
-# Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
-
-# Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
-
-# Google Tag Manager ID
-#gtm: ""
-
-# Matomo (aka Piwik) Web statistics
-# Uncomment the following section to enable Matomo. The opt-out parameter controls
-# whether or not you want to allow users to opt out of tracking.
-#matomo:
-#  site_id: "9"
-#  uri: "demo.wiki.pro"
-#  opt-out: true
-
-# --- Comments --- #
-
-# To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
-#disqus: ""
-
-# To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
-#fb_comment_id: ""
-
-# To use Utterances comments: (0) uncomment the following section, (1) fill in
-# "repository" (make sure the repository is public), (2) Enable Issues in your repository,
-# (3) Install the Utterances app in your repository https://github.com/apps/utterances
-# See more details about the parameters below at https://utteranc.es/
-#utterances:
-#  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
-#  issue-term: title   # Mapping between blog posts and GitHub issues
-#  theme: github-light # Utterances theme
-#  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
-
-# To use Staticman comments, first invite `staticmanlab` as a collaborator to your repository and
-# accept the invitation by going to `https://staticman3.herokuapp.com/v3/connect/github/<username>/<repo-name>`.
-# Then uncomment the following section and fill in "repository", "branch", and "endpoint".
-# If you want to use reCaptcha for staticman (optional for spam protection), then fill
-# in the "siteKey" and "secret" parameters below and also in `staticman.yml`.
-# See more details at https://staticman.net/
-#staticman:
-#  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
-#  branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
-#  endpoint   : # URL of your own deployment, with a trailing slash (will fallback to a public GitLab instance) eg. https://<your-api>/v3/entry/github/
-#  reCaptcha:
-#    siteKey  : # Use your own site key, you need to apply for one on Google
-#    secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
-
-# --- Misc --- #
-
-# Character used to separate site title and description in HTML document title
-# and RSS feed title
-title-separator: "-"
-
-# Ruby Date Format to show dates of posts
 date_format: "%B %-d, %Y"
-
-# Facebook App ID
-#fb_app_id: ""
-
-
-# --- You don't need to touch anything below here (but you can if you want) --- #
-
-# Output options (more information on Jekyll's site)
 timezone: "America/Caracas"
 markdown: kramdown
 highlighter: rouge
@@ -141,7 +34,6 @@ paginate: 5
 kramdown:
   input: GFM
 
-# Default YAML values (more information on Jekyll's site)
 defaults:
   -
     scope:
@@ -149,17 +41,14 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
-      readtime: false # add estimated reading time on all blog posts
+      comments: true
+      social-share: true
   -
     scope:
-      path: "" # all files
+      path: ""
     values:
       layout: "page"
-      show-avatar: true
 
-# Exclude these files from production site
 exclude:
   - CHANGELOG.md
   - CNAME
