@@ -1,10 +1,9 @@
-# Angel Perez's personal page
+# Angel Perez's old personal page
 
-This is the source code of my personal page, which is found [here](https://aitbw.codes/).
+⚠️ This repo/fork isn't deployed/maintained anymore ⚠️
 
-This blog was built over the [beautiful-jekyll](https://github.com/daattali/beautiful-jekyll) theme
-by [Dean Attali](https://github.com/daattali), therefore, most of the code found on this repository
-belongs to him, I merely customized it to my liking. All credit goes to Mr. Attali.
+This is the source code for the previous version of my personal website, which was built over [beautiful-jekyll](https://github.com/daattali/beautiful-jekyll) and powered by [GitHub Pages](https://pages.github.com/).
 
-This blog is powered by [GitHub Pages](https://pages.github.com/). [Prose](prose.io/) is used to
-manage the contents of this page.
+This website isn't being deployed anymore, and while it's production-ready, it shouldn't be deployed to any host. It's publicly available for archival reasons.
+
+The repo for the latest version of my website can be found [here](https://github.com/aitbw/aitbw.github.io), and you can find it live [here](https://aitbw.codes)
